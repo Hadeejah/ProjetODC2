@@ -1,0 +1,151 @@
+.container {
+  /* background-color: rgba(86, 77, 77, 0.418); */
+  border: 2px solid #333;
+  padding: 20px;
+  height: 800px;
+}
+
+.text-right {
+  margin-top: 20px;
+  text-align: right;
+}
+
+h1 {
+  margin-bottom: 50px;
+  color: rgba(21, 20, 20, 0.753);
+}
+
+hr {
+  border: 1px solid #333;
+}
+
+.transaction-title {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.transaction-title.om {
+  background-color: #f05a22;
+  color: #fff;
+}
+
+.transaction-title.wv {
+  background-color: #03c4a1;
+  color: #fff;
+}
+
+.transaction-title.wr {
+  background-color: #ffcc01;
+  color: #000;
+}
+
+.transaction-title.cb {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  /* height: 10%; */
+}
+
+.transaction-section {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background-color: #04070a;
+  border-color: #04070a;
+}
+/* .custom-container{
+    display: none;
+} */
+
+body {
+  background-color: #f8f9fa;
+}
+
+.custom-container {
+  max-width: 400px;
+  margin: 150px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #6c6969;
+  box-shadow: 0 2px 4px rgba(0, 3, 0, 0.1);
+}
+
+
+.modal-content{
+  width: 120%;
+} 
+
+
+/* .notification {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px 20px;
+  border-radius: 20px;
+  z-index: 9999;
+} */
+
+
+
+
+.notification {
+  position: absolute;
+  background-image: linear-gradient(to bottom right, #f6fbfb, #e9eded);
+  width: 25rem;
+  padding: 2rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  text-align: center;
+  animation: notific 2s;
+  font-size: 1.8rem;
+  color: rgb(6, 6, 6);
+  font-weight: bold;
+}
+/* #hiden{
+  display: none;
+} */
+
+@keyframes notific {
+  0% {
+      translate: 0%;
+
+  }
+
+  50% {
+      translate: 10%;
+  }
+
+  100% {
+      translate: 0%;
+  }
+}
+
+
+
+
+
+#modalCompte{
+  display: none;
+}
+.modal1{
+  display: none;
+}
+
+/* .btn-primary:hover {
+    background-color: #b32700;
+    border-color: #0056b3;
+  } */
